@@ -14,6 +14,23 @@
 
 ---
 
+## Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="screenshots/lobby_idle.png" alt="Lobby — Idle" width="220"/><br/><sub>Lobby — Idle</sub></td>
+      <td align="center"><img src="screenshots/connected.png" alt="Connected" width="220"/><br/><sub>Connected &amp; Ready</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="screenshots/champ_select.png" alt="Champ Select" width="220"/><br/><sub>Champ Select — Live Drafting</sub></td>
+      <td align="center"><img src="screenshots/mode_picker.png" alt="Mode Picker" width="220"/><br/><sub>Queue Mode Selector</sub></td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## Quick Start
 
 1. Download **`LeagueLoop_Installer.exe`** from this repository.
