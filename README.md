@@ -9,7 +9,7 @@
 
   <br/><br/>
 
-  <a href="https://github.com/Malcolmdotpeewhy/LeagueLoop-Lock">📂 View Source Code</a>
+  
 </div>
 
 ---
