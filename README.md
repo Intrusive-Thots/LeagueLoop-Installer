@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="app.ico" alt="LeagueLoop" width="96"/>
+  <img src="app.png" alt="LeagueLoop" width="96"/>
   <h1>LeagueLoop — Installer</h1>
   <p><em>One-click setup for the ultimate League of Legends automation companion.</em></p>
 
