@@ -47,7 +47,6 @@ LeagueLoop is an autonomous overlay companion for League of Legends that automat
 - **Zero-Lag Architecture** — Fully thread-safe, event-driven background engine
 - **Auto-Honor** — Smart post-game honor targeting
 - **Compact Orb Mode** — Shrinks to a draggable glowing orb during games
-- **Omnibar** (`Ctrl+K`) — Command palette for rapid queue switching and client control
 
 ## Requirements
 
