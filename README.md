@@ -101,16 +101,7 @@ All hotkeys are fully rebindable from the Settings panel.
 
 ---
 
-## Building from Source
 
-Want to build it yourself? Check out the source repo: **[LeagueLoop-Lock](https://github.com/Intrusive-Thots/LeagueLoop-Lock)**
-
-```bash
-git clone https://github.com/Intrusive-Thots/LeagueLoop-Lock.git
-cd LeagueLoop-Lock
-pip install -r requirements.txt
-python -m src.core.main
-```
 
 ---
 
