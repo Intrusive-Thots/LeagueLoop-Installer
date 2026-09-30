@@ -1,7 +1,8 @@
 <div align="center">
   <img src="./assets/app_icon.png" width="120" height="120" alt="LeagueLoop Logo" />
   <h1>LeagueLoop</h1>
-  <p><strong>The Zero-Injection League of Legends Companion for Queue, Draft, ARAM, and Session Automation.</strong></p>
+  <p><strong>Never Miss a Queue Again.</strong></p>
+  <p>The Zero-Injection League of Legends Companion for Queue, Draft, ARAM, and Session Automation.</p>
 
   [![Version](https://img.shields.io/badge/version-2--09--273--1535-gold.svg?style=for-the-badge)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
   [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6.svg?style=for-the-badge&logo=windows)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
