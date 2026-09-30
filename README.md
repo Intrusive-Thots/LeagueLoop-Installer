@@ -1,9 +1,9 @@
-﻿<div align="center">
+<div align="center">
   <img src="./assets/app_icon.png" width="120" height="120" alt="LeagueLoop Logo" />
   <h1>LeagueLoop</h1>
   <p><strong>The Zero-Injection League of Legends Companion for Queue, Draft, ARAM, and Session Automation.</strong></p>
 
-  [![Version](https://img.shields.io/badge/version-2--09--261--0317-gold.svg?style=for-the-badge)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
+  [![Version](https://img.shields.io/badge/version-2--09--273--1535-gold.svg?style=for-the-badge)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
   [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6.svg?style=for-the-badge&logo=windows)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
   [![Anti--Cheat](https://img.shields.io/badge/Anti--Cheat-Safe%20(LCU%20Only)-success.svg?style=for-the-badge&logo=riotgames)](https://github.com/Intrusive-Thots/LeagueLoop-Installer#security--anti-cheat-compliance)
   [![License](https://img.shields.io/badge/license-MIT-emerald.svg?style=for-the-badge)](LICENSE)
@@ -11,7 +11,7 @@
   <br/><br/>
 
   <a href="https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_INSTALLER-v2--09--261--0317-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="40" alt="Download Installer" />
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_INSTALLER-v2--09--273--1535-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="40" alt="Download Installer" />
   </a>
 </div>
 
@@ -19,7 +19,7 @@
 
 > [!TIP]
 > ### ⚡ One-Click Standalone Installer
-> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe)** *(Version `2-09-261-0317` • ~44.8 MB)*  
+> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe)** *(Version `2-09-273-1535` • ~44.8 MB)*  
 > Includes pre-populated ARAM Mayhem meta picks, native Windows Taskbar presence, magnetic dock positioning, and automated LCU synchronization.
 
 ---
