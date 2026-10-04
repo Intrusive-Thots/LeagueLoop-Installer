@@ -20,7 +20,7 @@
 
 > [!TIP]
 > ### ⚡ One-Click Standalone Installer
-> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe)** *(Version `2-09-273-1535` • ~44.8 MB)*  
+> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe)** *(Version `2-10-277-0633` • ~44.8 MB)*  
 > Includes pre-populated ARAM Mayhem meta picks, native Windows Taskbar presence, magnetic dock positioning, and automated LCU synchronization.
 
 ---
