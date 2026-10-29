@@ -4,15 +4,15 @@
   <p><strong>Never Miss a Queue Again.</strong></p>
   <p>The Zero-Injection League of Legends Companion for Queue, Draft, ARAM, and Session Automation.</p>
 
-  [![Version](https://img.shields.io/badge/version-2--09--273--1535-gold.svg?style=for-the-badge)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
+  [![Version](https://img.shields.io/badge/version-2--10--296--0152-gold.svg?style=for-the-badge)](https://github.com/Intrusive-Thots/LeagueLoop-Installer/releases/tag/v2-10-296-0152)
   [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-0078D6.svg?style=for-the-badge&logo=windows)](https://github.com/Intrusive-Thots/LeagueLoop-Installer)
   [![Anti--Cheat](https://img.shields.io/badge/Anti--Cheat-Safe%20(LCU%20Only)-success.svg?style=for-the-badge&logo=riotgames)](https://github.com/Intrusive-Thots/LeagueLoop-Installer#security--anti-cheat-compliance)
   [![License](https://img.shields.io/badge/license-MIT-emerald.svg?style=for-the-badge)](LICENSE)
 
   <br/><br/>
 
-  <a href="https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_INSTALLER-v2--09--273--1535-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="40" alt="Download Installer" />
+  <a href="https://github.com/Intrusive-Thots/LeagueLoop-Installer/releases/download/v2-10-296-0152/LeagueLoop_Installer.exe">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_DOWNLOAD_INSTALLER-v2--10--296--0152-2ea44f?style=for-the-badge&logo=windows&logoColor=white" height="40" alt="Download Installer" />
   </a>
 </div>
 
@@ -20,8 +20,8 @@
 
 > [!TIP]
 > ### ⚡ One-Click Standalone Installer
-> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe)** *(Version `2-10-277-0633` • ~44.8 MB)*  
-> Includes pre-populated ARAM Mayhem meta picks, native Windows Taskbar presence, magnetic dock positioning, and automated LCU synchronization.
+> **[Download LeagueLoop_Installer.exe](https://github.com/Intrusive-Thots/LeagueLoop-Installer/releases/download/v2-10-296-0152/LeagueLoop_Installer.exe)** *(Version `2-10-296-0152` • 35.7 MB)*  
+> Includes pre-populated ARAM Mayhem meta picks, native Windows Taskbar presence, magnetic dock positioning, and automated LCU synchronization. This build is LeagueLoop.DEV `d92048f`, including the October 2026 UI polish and the live-client friend presence and season-pass claim fixes.
 
 ---
 
@@ -116,9 +116,38 @@ LeagueLoop operates under a strict **Zero-Injection Architectural Invariant**. I
 
 ## Quick Start (Under 2 Minutes)
 
-1. **Download**: Grab [`LeagueLoop_Installer.exe`](https://github.com/Intrusive-Thots/LeagueLoop-Installer/raw/main/LeagueLoop_Installer.exe).
+1. **Download**: Grab [`LeagueLoop_Installer.exe`](https://github.com/Intrusive-Thots/LeagueLoop-Installer/releases/download/v2-10-296-0152/LeagueLoop_Installer.exe).
 2. **Install**: Run the installer and create a Desktop shortcut (runs unelevated, no administrative rights required for regular operation).
 3. **Launch**: Open League of Legends. LeagueLoop will automatically detect the client, hook to the local LCU socket, and magnetically dock to your client's right border.
+
+---
+
+## Packaged build
+
+| | |
+| :--- | :--- |
+| **App version** | `2-10-296-0152` |
+| **App commit** | [`d92048f5206acfc2fdd7345a36dbc2186a73a595`](https://github.com/Intrusive-Thots/LeagueLoop.DEV/commit/d92048f5206acfc2fdd7345a36dbc2186a73a595) |
+| **Replaces** | `2-10-277-0633` |
+| **Python** | 3.11 |
+| **Dependencies** | [`deps/requirements.txt`](deps/requirements.txt) (PyInstaller 6.21.0, from `config/requirements.txt`) |
+| **Bundle** | PyInstaller ONEDIR (`LeagueLoop.spec` in the app repo) |
+| **Installer** | Inno Setup 6.7.0, [`installer/LeagueLoop.iss`](installer/LeagueLoop.iss) |
+| **Size** | 35.74 MB |
+| **SHA256** | `1798fd3743a27d83ae00f1890499f2320c5bf4ab1993e0a47910dc20b4583452` |
+
+The download above is a GitHub pre-release asset produced by [`.github/workflows/build-installer.yml`](.github/workflows/build-installer.yml) on a Windows runner. The workflow checks out the pinned app commit, installs the vendored requirements, builds `dist/LeagueLoop/`, and compiles the Inno Setup script. It publishes `LeagueLoop_Installer.exe` as a workflow artifact and as the `v2-10-296-0152` pre-release. It does not push to `main`.
+
+### Rebuild on Windows
+
+```powershell
+git clone https://github.com/Intrusive-Thots/LeagueLoop.DEV.git app
+git -C app checkout d92048f5206acfc2fdd7345a36dbc2186a73a595
+py -3.11 -m pip install -r deps/requirements.txt
+powershell -ExecutionPolicy Bypass -File scripts/build-installer.ps1
+```
+
+The script checks `app-source.env` against `src/core/version.py`, `deps/requirements.txt`, and `installer/LeagueLoop.iss`, then writes `app\dist\LeagueLoop_Installer.exe`. Inno Setup 6.7.0 is installed automatically when `ISCC.exe` is not already on the machine.
 
 ---
 

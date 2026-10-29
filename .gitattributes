@@ -1,0 +1,4 @@
+LeagueLoop_Installer.exe binary
+*.iss text eol=lf
+*.ps1 text eol=lf
+*.yml text eol=lf
